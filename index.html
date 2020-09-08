@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Budget list</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+
+<body>
+  <section class="budget p-2">
+    <div class="container">
+      <div class="col-md-6 offset-md-3 p-3 budget-main">
+        <h2 class="text-center my-4 font-weight-bold">Калькулятор бюджета</h2>
+        <div class="budget__table">
+          <div class="row d-flex justify-content-around">
+            <div class="col-xs-6">
+              <p class="budget__table-title">Расходы</p>
+              <div class="budget-negative"></div>
+            </div>
+            <div class="col-xs-6">
+              <p class="budget__table-title">Доходы</p>
+              <div class="budget-positive"></div>
+            </div>
+          </div>
+          <div class="row budget__table-total px-4">
+            <div class=" p-3 total-title">Бюджет:
+            </div>
+            <div class="budget__table-reuslt p-3 "></div>
+          </div>
+        </div>
+        <section class="budget-more my-5">
+          <h4 class="font-weight-bold text-center">История операций</h4>
+          <div class="budget-more__table">
+          </div>
+        </section>
+        <section class="budget__add my-2 p-3 bg-light">
+          <h5 class="font-weight-bold text-center">Новая операция</h5>
+          <form>
+            <div class="form-group ">
+              <label for="title-item">Название статьи</label>
+              <input type="text" class="form-control" id="title-item" </div> <div class="form-group ">
+              <label for="amount-item">Стоимость</label>
+              <input type="number" class="form-control" id="amount-item" </div> <div class="form-group">
+              <label for="exampleInputEmail1">Статья</label>
+              <select class="form-control add-select">
+                <option class="option-negative" value='false'>Расход</option>
+                <option class="option-positive" value='true'>Доход</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-sm btn-primary add-new">Добавить</button>
+          </form>
+      </div>
+  </section>
+  </div>
+  </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>

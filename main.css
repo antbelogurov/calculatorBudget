@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-size: 20px;
+
+}
+
+body {
+    background: rgb(185, 185, 185);
+}
+
+.budget-main {
+    border: 1px solid gray;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.budget__table,
+.buget-more__table,
+.budget__add {
+    border: 3px solid gray;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.budget__table-title {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.budget__table-total {
+    font-weight: bold;
+    border-top: 2px solid black;
+}
+
+.budget__table-reuslt {
+    margin-left: auto;
+}
+
+.budget-more__table-item {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.buget-more__table-item {
+    position: relative;
+    text-align: center;
+}
+
+.budget-positive {
+    color: green;
+    text-align: center;
+}
+
+.budget-negative {
+    color: red;
+}
+
+.item-amount {
+    position: absolute;
+    right: 100px;
+}
+
+.item-delete {
+    position: absolute;
+    right: 40px;
+
+}
+
+.item-delete button {
+    padding: 0 8px;
+    margin-bottom: 10px;
+
+}
+
+.item-color {
+    width: 15px;
+}
+
+.color-negative {
+    border: 2px solid red;
+    background: #f5b9b9;
+
+}
+
+.color-positive {
+    border: 2px solid green;
+    background: #b9f5e1;
+
+}
+
+.add-new {
+    width: 100%;
+}
